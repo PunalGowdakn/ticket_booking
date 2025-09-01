@@ -1,0 +1,71 @@
+<DOCTYPE html>
+<html>
+<head>
+  <title>Ticket Booking Form</title>
+</head>
+<body style="background-color:skyblue">
+<center>
+<fieldset style="background-color:yellow;width:600px">
+
+
+<h2>Ticket Booking Form</h2>
+
+  <form action=""  method="post">
+      <label>Name:</label>
+      <input type="text" id="name" name="box1" required>
+<br><br>
+      <label>E-mail</label>
+      <input type="email" id="email" name="box2" required>
+<br><br>
+      <label>Phone number:</label>
+      <input type="tel" id="tel" name="box3" required>
+<br><br>
+      <label>Offer-code:</label>
+      <input type="text" id="passwprd" name="box4" value="NEWYEAR46" readonly disabled>
+<br><br>
+      <label>Set-Password:</label>
+      <input type="Password" id="passwprd" name="box5" required>
+<br><br>
+      <label>Ticket-id:</label>
+      <input type="text" id="id" name="box6"  value="TIC-46P" readonly>
+<br><br>
+      <label>From:</label>
+      <input type="text" id="from" name="box7" required>
+<br><br>
+      <label>To:</label>
+      <input type="text" id="to" name="box8" required>
+<br><br>
+      <label>Journey-Date:</label>
+      <input type="date" id="date" name="box9" required>
+      <input type="time">
+<br><br>
+      <label>Journey-type:</label>
+<br>
+      <input type="radio" id="radio" name="box10" required>one way
+<br>
+      <input type="radio" id="radio" name="box11" required>one way
+<br><br>
+      <label>Class:</label>
+      <select>
+         <option>--non-AC--</option>
+         <option>--AC-Sleeper--</option>
+         <option>--Semi-Sleeper--</option>
+      </select>
+<br><br>
+      <label>Number of Tickets:</label>
+      <input type="number" id="passwprd" name="box12" min="1" max="6" required>
+<br><br>
+     <label>Address(Optional):</label>
+<br>
+     <textarea type="text" id="address" name="box13" size="6" required></textarea>
+<br><br>
+     <input type="submit" id="submit" name="box14">
+     <input type="reset" id="reset"   name="box15">
+</fieldset>
+
+</form>
+
+</center>
+
+</body>
+</html>
